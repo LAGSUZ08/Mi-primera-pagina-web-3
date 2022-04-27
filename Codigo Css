@@ -1,0 +1,340 @@
+html{
+scroll-behavior: smooth;
+
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "roboto",sans-serif;
+    margin: 0;
+}
+
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.5em;}
+ul{list-style:none ;}
+
+button{
+font-size: 1.5em; 
+font-weight: bold;
+padding: 10px 20 px;
+border-radius: 10px;
+border: 2px solid rgba(0,0,0,0.3);
+box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+color: white;
+background-color : #FF8243;
+
+}
+
+button:hover{
+background-color: #dd7039;
+
+}
+
+
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+
+header{
+    background-color:white;
+}
+
+header .logo{
+    margin: 0;
+    padding:25px 30px ;
+    font-weight: bold;
+   color: #FF8243;
+   font-size: 1.6em;
+
+}
+
+header .contenedor{
+display:flex;
+flex-direction: column;
+align-items:center ;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+header a:hover {
+color: #FF8243;
+
+}
+
+
+#hero{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 90vh;
+background-image: 
+url("https://www.marinareservation.com/articles/espanol/wp-content/uploads/sites/2/2016/08/C-COUTANCEAU-HD-2766.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+
+}
+
+#hero h1{
+
+color: white;
+
+}
+
+#diferencias .contenedor{
+text-align: center;
+padding: 200px 12px;
+
+}
+
+
+#nuestra-historia{
+
+background-color: rgba(30, 30, 30, 30);
+color: white;
+text-align: center;
+
+}
+
+
+#nuestra-historia  .contenedor{
+
+padding: 150px 0px;
+
+}
+
+#nuestra-historia h2 {
+
+margin-top: 0;
+
+}
+
+#nuestra-historia p   {
+
+display:none;
+
+}
+
+
+#nuestra-historia  .carta {
+background-position: center center;
+background-size: cover;
+padding: 50 px;
+margin: 20px;
+border-radius: 15px;
+
+}
+
+
+
+.carta:first-child {
+background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/06/df/df/06/el-paraigua.jpg");
+background-position:center center;
+background-size:  cover ;
+
+}
+
+
+.carta:nth-child(2) {
+background-image: url("https://i.blogs.es/bdc088/frases-inspiradoras-chefs/1024_2000.jpeg");
+background-position: center center ;
+background-size: cover ;
+}
+
+
+.carta:nth-child(3) {
+    background-image: url("https://mabhostelero.com/wp-content/uploads/2018/03/tesla-restaurante-drive-in.jpg");
+    background-position: center center ;
+    background-size: cover ;
+    }
+
+
+
+
+    #caracter .contenedor {
+text-align: center ;
+padding: 250px 12px;
+
+
+    }
+#caracter li{
+margin: 16px 0px;
+font-weight: boldS;
+
+
+}
+
+#final {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color:  rgb(30, 30, 30);
+color: white;
+height: 80vh;
+}
+
+#final h2{
+font-size: 9vw;
+
+}
+
+#final button{
+
+font-size: 5vw;
+
+}
+
+
+footer{
+
+background-color: rgb(230,230,230);
+
+
+}
+
+footer p {
+margin: 0;
+color:rgb(100,100,100)
+
+}
+
+footer .contenedor {
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+
+.copy  {
+ font-size: .8em;
+text-align: center;
+
+
+}
+
+
+
+
+@media (min-width:750px){
+header{
+position: fixed;
+width: 100%;
+background-color: white;
+
+
+}
+
+    header .contenedor{
+ flex-direction: row;
+justify-content: space-between;
+}
+header nav {
+
+flex-direction: row;
+padding-bottom:0;
+padding-right: 20px;
+
+}
+#diferiencias .contenedor {
+display: flex;
+margin-top:  50px; 
+margin-bottom: 50px;
+justify-content: center;
+}
+
+#diferencias .text {
+width: 50%;
+text-align: right;
+padding: 0px 30px;
+}
+
+#diferiencias .img-contenedor {
+background-image: linear-gradient(
+0deg,
+rgba(0,0,0,0.5),
+rgba(0,0,0,0.5)
+
+), url("https://corbuse.edu.mx/blog/wp-content/uploads/2020/09/post_thumbnail-983ddd7f4c3accb497bbc64234073fe6.jpeg");
+background-size: cover;
+background-position: center center;
+height: 600px;
+width: 1500px;
+
+}
+
+#caracter{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2617/2617930.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px 400px;
+    
+
+
+}
+
+
+#caracter .contenedor{
+text-align: initial;
+
+
+}
+
+
+#final{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  rgb(30, 30, 30);
+    color: white;
+    height: 40vh;
+
+}
+#final h2{
+    font-size: 3.2em;
+    
+    }
+
+    #final button{
+
+        font-size: 2.5em;
+        
+        }
+
+
+}
