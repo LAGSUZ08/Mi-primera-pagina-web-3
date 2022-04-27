@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pagina Web (El sabor)</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+    <div class="contenedor">
+      <p class="logo">El sabor</p>
+      <nav> 
+
+        <a href="#diferiencias">Que nos diferiencia de otros restaurantes</a>
+        <a href="#nuestra-historia">Nuestra historia</a>
+        <a href="#caracter">Nuestras caracteristicas</a>  
+        
+    </nav> 
+    </div>
+    
+</header>
+<section id="hero">
+    <h1>Ven a comer <br> con los mejores</h1>
+    <button>Ordena ya!</button>
+
+</section>
+
+<section id="diferiencias">
+    <div class="contenedor">
+    <div class="img-contenedor"></div>
+    <div class="text">
+<h2>Somos  el sabor </h2>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate doloribus consequatur, 
+quas suscipit rem magni distinctio! Dolores officia repudiandae dolor tempora vel mollitia non ullam,
+ sunt enim sapiente recusandae! </p>
+</div>
+</div>
+</section>
+
+<section id="nuestra-historia"> 
+  <div class="contenedor">
+
+    <h2>Nuestra historia</h2>
+    <div class="programas">
+    <div class="carta">
+        <h3>Como empezo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Necessitatibus nihil et doloribus omnis quos ratione quisquam sapiente perspiciatis? Eos, cumque dolor alias aliquid consequatur ab est iusto sit quo sequi.</p>
+            <button>+Info</button>
+            </div>
+    <div class="carta">
+        <h3>Fundadores</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Necessitatibus nihil et doloribus omnis quos ratione quisquam sapiente perspiciatis? Eos, cumque dolor alias aliquid consequatur ab est iusto sit quo sequi.</p>
+             <button>+Info</button>
+            </div>
+    <div class="carta">
+        <h3>Futuro como restaurante</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Necessitatibus nihil et doloribus omnis quos ratione quisquam sapiente perspiciatis? Eos, cumque dolor alias aliquid consequatur ab est iusto sit quo sequi.</p>
+             <button>+Info</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<section id="caracter">
+<div class="contenedor">
+    <ul>
+       <li>✔️100% calidad </li>
+       <li>✔️Rapido </li>
+       <li>✔️Barato</li>
+       <li>✔️Con mucha experiencia</li>
+
+
+</ul>
+
+</div>
+</section>
+<section id="final">
+<h2>Listo para comer</h2>
+<button> Compra Ya!</button>
+</section>
+
+<footer>
+    <div class="copy">
+    <p>&copy; El sabor 2021 </p>
+</div>
+</footer>
+
+</body>
+</html>
+   
